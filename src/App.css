@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 80px 0;
+  border-bottom: 1px solid #222;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 120px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 1.4rem;
+  color: #ff6b2b;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.hero p {
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.hero-buttons a {
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.hero-buttons a:first-child {
+  background: #ff6b2b;
+  color: white;
+}
+
+.hero-buttons a:last-child {
+  border: 1px solid #444;
+  color: #e0e0e0;
+}
+
+.hero-buttons a:hover {
+  opacity: 0.8;
+}
+
+/* About */
+.about p {
+  line-height: 1.8;
+  color: #aaa;
+  max-width: 650px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+/* Skills */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills-grid span {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 24px;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: #ff6b2b;
+}
+
+.card h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #888;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.card a {
+  color: #ff6b2b;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Contact */
+.contact p {
+  margin-bottom: 10px;
+  color: #aaa;
+}
+
+.contact a {
+  color: #ff6b2b;
+  text-decoration: none;
+}
