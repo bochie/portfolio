@@ -89,6 +89,15 @@ function App() {
             <p>Personal portfolio built with React and Vite.</p>
             <a href="https://github.com/bochie/portfolio" target="_blank">GitHub →</a>
           </motion.div>
+        <motion.div
+          className="card"
+          whileHover={{ y: -5, borderColor: '#ff6b2b' }}
+          transition={{ duration: 0.2 }}
+>
+  <h3>Task Manager</h3>
+  <p>Todo app with filters and animations built with React and Framer Motion.</p>
+  <a href="https://github.com/bochie/todo-app" target="_blank">GitHub →</a>
+</motion.div>
         </div>
       </motion.section>
 
